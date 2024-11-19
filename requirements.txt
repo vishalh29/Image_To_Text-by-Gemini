@@ -1,0 +1,5 @@
+pillow
+google-generativeai
+google-api-core
+google-auth
+requests

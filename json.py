@@ -69,8 +69,8 @@ def process_images_in_folder(input_folder, output_folder):
         except json.JSONDecodeError as e:
             print(f"Error decoding JSON for image '{image_path.name}': {e}")
 
-input_folder = "/Users/vishal.hanchate/Desktop/intern/New Folder With Items"  # Replace with your folder path
+input_folder = "input_folder_path"  # Replace with your folder path
 
-output_folder = "/Users/vishal.hanchate/Desktop/untitled folder/"  # Replace with your desired output folder
+output_folder = "output_folder_path"  # Replace with your desired output folder
 
 process_images_in_folder(input_folder, output_folder)

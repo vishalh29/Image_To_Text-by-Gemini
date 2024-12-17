@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 import json
 
-GOOGLE_API_KEY = "AIzaSyArud_pm9K2g6j4jLzLMhFzPlZ0r7O98wg"  # Replace with your actual API key
+GOOGLE_API_KEY = "api_key"  # Replace with your actual API key
 genai.configure(api_key=GOOGLE_API_KEY)
 
 MODEL_CONFIG = {
